@@ -1,10 +1,12 @@
 # SNN-Unity
 Personal project to build SNN learning system on Unity
-
+↓Now
 ![izhikevichi-16](https://user-images.githubusercontent.com/75618251/102014665-74df9600-3d9a-11eb-8ca5-377c461d1508.gif)
 
-膜電位のシミュレーションまでUnity上(C#)でやるとニューロン20個くらいで私のPCパワーの限界だったので、
-そこは外部のPythonで行い、発火のみUnityに知らせる（UDP通信）ような書き換えを現在行なっています
+膜電位のシミュレーションまでUnity上(C#)でやるとIzhikevichニューロン20個くらいでPCパワーの限界だったので、
+そこは外部のPythonで行い、発火のみUnityに知らせる（たぶんUDP通信で）ような書き換えを現在行なっています
 
-↓こいつを学習させたい...  
+↓こいつを目的の方向へ飛ぶように学習させたい...  
 ![model](https://user-images.githubusercontent.com/75618251/102015703-7d3acf80-3da0-11eb-8a93-329010d227ce.gif)
+
+もっと簡単な行動タスクを用意した方がいいかも？
